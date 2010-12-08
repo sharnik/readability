@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+  <head>
+    <title>
+      Hello World
+    </title>
+    <script type='text/javascript'>
+      safari.application.addEventListener("command",
+        function(){          
+          safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("activateMyScript", "local!");
+        }, 
+      false);
+    </script>
+  </head>
+  <body>
+    <p>
+      Hello World!
+    </p>
+  </body>
+</html>
