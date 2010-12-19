@@ -1804,14 +1804,13 @@ var readability = {
 // Safari Extension specific code:
 
 if (window.top === window) {
-  readStyle = 'style-ebook';
-  readSize = 'size-medium';
-  readMargin = 'margin-medium';
-
   function handleMessage(msgEvent) {
     var messageName = msgEvent.name;
     var messageData = msgEvent.message;
-    if (messageName === "activateMyScript"){ 
+    readStyle = messageData[0];
+    readSize = messageData[1];
+    readMargin = messageData[2];
+    if (messageName === "activateReadability"){ 
       readability.init();
     }
   }

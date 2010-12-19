@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array/>
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>style-ebook</string>
+		<key>Key</key>
+		<string>readability_style</string>
+		<key>Title</key>
+		<string>Style</string>
+		<key>Titles</key>
+		<array>
+			<string>Newspaper</string>
+			<string>Novel</string>
+			<string>eBook</string>
+			<string>Inverse</string>
+			<string>Athelas</string>
+		</array>
+		<key>Type</key>
+		<string>RadioButtons</string>
+		<key>Values</key>
+		<array>
+			<string>style-newspaper</string>
+			<string>style-novel</string>
+			<string>style-ebook</string>
+			<string>style-apertura</string>
+			<string>style-athelas</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>size-medium</string>
+		<key>Key</key>
+		<string>readability_size</string>
+		<key>Title</key>
+		<string>Size</string>
+		<key>Titles</key>
+		<array>
+			<string>Extra Small</string>
+			<string>Small</string>
+			<string>Medium</string>
+			<string>Large</string>
+			<string>Extra Large</string>
+		</array>
+		<key>Type</key>
+		<string>RadioButtons</string>
+		<key>Values</key>
+		<array>
+			<string>size-x-small</string>
+			<string>size-small</string>
+			<string>size-medium</string>
+			<string>size-large</string>
+			<string>size-x-large</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>margin-wide</string>
+		<key>Key</key>
+		<string>readability_margin</string>
+		<key>Title</key>
+		<string>Margin</string>
+		<key>Titles</key>
+		<array>
+			<string>Extra Narrow</string>
+			<string>Narrow</string>
+			<string>Medium</string>
+			<string>Wide</string>
+			<string>Extra Wide</string>
+		</array>
+		<key>Type</key>
+		<string>RadioButtons</string>
+		<key>Values</key>
+		<array>
+			<string>margin-x-narrow</string>
+			<string>margin-narrow</string>
+			<string>margin-medium</string>
+			<string>margin-wide</string>
+			<string>margin-x-wide</string>
+		</array>
+	</dict>
+</array>
 </plist>

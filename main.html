@@ -6,8 +6,8 @@
     </title>
     <script type='text/javascript'>
       safari.application.addEventListener("command",
-        function(){          
-          safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("activateMyScript", "local!");
+        function(){
+          safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("activateReadability", [safari.extension.settings.readability_style, safari.extension.settings.readability_size, safari.extension.settings.readability_margin]);
         }, 
       false);
     </script>
